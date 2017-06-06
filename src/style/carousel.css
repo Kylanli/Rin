@@ -1,0 +1,49 @@
+.img{
+  width: 100%
+}
+.root{
+    position:relative
+}
+.slide{
+    background-size:100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 120px;
+}
+@media(min-width:450px){
+  .slide{
+      width: 100%;
+      height: 180px;
+  }
+}
+@media(min-width:768px){
+  .slide{
+      width: 100%;
+      height: 240px;
+  }
+}
+@media(min-width:992px){
+  .slide{
+      width: 100%;
+      height: 310px;
+  }
+}
+@media(min-width:1200px){
+  .slide{
+      width: 100%;
+      height: 360px;
+  }
+}
+.slide1{
+    background-image: url(http://www.0daydown.com/wp-content/uploads/2017/04/00450b92_medium.jpg);
+    background-color:#FEA900
+}
+.slide2{
+    background-image:url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1628261691,897884160&fm=23&gp=0.jpg);
+    background-color:#B3DC4A
+}
+.slide3{
+    background-image:url(https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4205633819,4027051745&fm=23&gp=0.jpg);
+    background-color:#6AC0FF
+}
